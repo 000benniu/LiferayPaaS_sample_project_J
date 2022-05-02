@@ -1,7 +1,7 @@
 {
   "kind": "StatefulSet",
   "id": "ci",
-  "image": "liferaycloud/jenkins:2.303.2-4.2.5",
+  "image": "liferaycloud/jenkins:2.319.3-jdk8-4.2.6",
   "deploy": false,
   "memory": 8192,
   "cpu": 4,
@@ -32,7 +32,6 @@
   },
   "env": {
     "JENKINS_ADMIN_USER_NAME": "lctjpteamdxp74",
-    "JENKINS_EMAIL_NOTIFICATIONS_FROM": "Jenkins CI - lctjpteamdxp74 <lctjpteamdxp74@liferay.com>",
     "JENKINS_URL": "https://ci-lctjpteamdxp74-infra.lfr.cloud",
     "LCP_CI_SCM_REPOSITORY_NAME": "lctjpteamdxp74",
     "LCP_CI_SCM_REPOSITORY_OWNER": "000benniu"
