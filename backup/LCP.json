@@ -29,8 +29,9 @@
     "periodSeconds": 60
   },
   "env": {
-    "LCP_BACKUP_CREATE_SCHEDULE": "",
-    "LCP_BACKUP_RESTORE_SCHEDULE": "",
+    "LCP_BACKUP_CREATE_SCHEDULE": "0 16 * * *",
+    "LCP_BACKUP_CLEANUP_SCHEDULE": "@monthly",
+    "LCP_BACKUP_RETENTION_PERIOD": "30",
     "LCP_GCP_DATABASE_CHARSET": "utf8mb4",
     "LCP_GCP_DATABASE_COLLATION": "utf8mb4_unicode_ci"
   },
