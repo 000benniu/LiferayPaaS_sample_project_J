@@ -31,8 +31,6 @@
     "failureThreshold": 12
   },
   "env": {
-    "JENKINS_ADMIN_USER_NAME": "lctjpteamdxp74",
-    "JENKINS_URL": "https://ci-lctjpteamdxp74-infra.lfr.cloud",
     "LCP_CI_SCM_REPOSITORY_NAME": "lctjpteamdxp74",
     "LCP_CI_SCM_REPOSITORY_OWNER": "000benniu"
   },

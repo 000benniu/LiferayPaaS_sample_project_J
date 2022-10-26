@@ -1,19 +1,3 @@
-# Files may need to change:
-
-## ci/LCP.json   Link to github
-
-```
-"env": {
-    "JENKINS_ADMIN_USER_NAME": "lctjpteamdxp74",
-    "JENKINS_URL": "https://ci-lctjpteamdxp74-infra.lfr.cloud",
-    "LCP_CI_SCM_REPOSITORY_NAME": "lctjpteamdxp74",
-    "LCP_CI_SCM_REPOSITORY_OWNER": "000benniu"
-},
-```
-
-## Also need to change Environment Variables on CI service.
-
-
 # Backup service
 * backup/LCP.json
 
@@ -33,15 +17,18 @@
    * Find the latest version from :https://hub.docker.com/r/liferay/portal/tags
 * properties files:   liferay/configs/XXX/portal-ext.properties
 
-## Set session longer:
+## Config with longer session:
 * https://help.liferay.com/hc/ja/articles/5394973917581--Unable-to-extend-the-HTTP-session-WARN-logs
-
 
 ## Fix back < button.
 
 1. Control Panel -> Instance Settings -> Pages -> Redirect URLs
 1. Security mode: DOMAIN
 1. Allowed Domains: *.lfr.cloud
+
+## Use screen name to login.
+
+1. Control Panel -> Instance Settings -> User Authentication -> General
 
 ## release feature flags
 * System Settings > Release Feature Flags
@@ -61,3 +48,31 @@ xxx/webserver/configs/dev/public > cat .htpasswd
 [username]:$apr1$X1AsB9Op$MU0CSTdpHu.Vj2g/tLGTn1
 ```
 
+# [DXPC] Steps after project provision.
+1. Accept the invite from mail .
+* You are invited to become an Admin member on project lctjpsteam1101
+2. [Optional] Clone the project ot local, diff and check if there are any changes.
+* Service change log :https://help.liferay.com/hc/en-us/sections/360006251311-Services-Changelog
+3. Config CI from https://console.liferay.cloud/, connect with personal git project. (Also can use project provided by dxp cloud team as default. eg. https://github.com/dxpcloud/[projectID]).
+```
+JENKINS_ADMIN_USER_NAME [ProjectID] // keep as default
+JENKINS_URL [CI's URL] // keep as default
+LCP_CI_DEPLOY_TARGET  [dev] // keep as default
+LCP_CI_SCM_REPOSITORY_NAME  [github's repo name]
+LCP_CI_SCM_REPOSITORY_OWNER [github's user name]
+LCP_CI_SCM_PROVIDER [github]
+LCP_CI_SCM_TOKEN  [access_token]  // Get it from github.
+```
+
+4. Change the project's webhook on github site to trigger the CI build.
+
+5. Change the ci/LCP.json   Link to github
+
+```
+"env": {
+    "JENKINS_ADMIN_USER_NAME": "lctjpteamdxp74",
+    "JENKINS_URL": "https://ci-lctjpteamdxp74-infra.lfr.cloud",
+    "LCP_CI_SCM_REPOSITORY_NAME": "lctjpteamdxp74",
+    "LCP_CI_SCM_REPOSITORY_OWNER": "000benniu"
+},
+```

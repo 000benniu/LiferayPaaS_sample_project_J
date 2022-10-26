@@ -48,6 +48,12 @@ my-project $ blade gw distBundleTar
 my-project $ blade gw distBundleZip
 ```
 
+### Creating multiple bundles
+```
+my-project $ blade gw distBundleTarAll
+my-project $ blade gw distBundleZipAll
+```
+
 ### Creating a docker image
 ```
 my-project $ blade gw buildDockerImage
@@ -134,6 +140,10 @@ Set the environment with the settings appropriate for current development. The
 You can organize environment settings and generate an environment installation
 with those settings. There are five environments: common, dev, docker, local,
 prod, and uat. The default value is `local`.
+
+#### liferay.workspace.bundle.dist.include.metadata
+Set this to true to append metadata for the current environment settings and
+timestamp. The default value is `false`.
 
 #### liferay.workspace.ext.dir
 Set the folder that contains all Ext OSGi modules and Ext plugins. The default
