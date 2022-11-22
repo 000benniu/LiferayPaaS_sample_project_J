@@ -30,6 +30,9 @@
 
 1. Control Panel -> Instance Settings -> User Authentication -> General
 
+## Authentication Token Expiration Time
+1. System Settings -> Users -> On-Demand Admin
+
 ## Hide node infomation
 1. Open DXPC console. https://console.liferay.cloud/
 1. Go to liferay Service -> environment-variables
