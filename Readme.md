@@ -30,6 +30,11 @@
 
 1. Control Panel -> Instance Settings -> User Authentication -> General
 
+## Hide node infomation
+1. Open DXPC console. https://console.liferay.cloud/
+1. Go to liferay Service -> environment-variables
+1. Add Regular variables `LIFERAY_WEB_PERIOD_SERVER_PERIOD_DISPLAY_PERIOD_NODE` as `false`
+
 ## release feature flags
 * System Settings > Release Feature Flags
 
