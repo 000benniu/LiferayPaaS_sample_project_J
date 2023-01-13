@@ -69,10 +69,13 @@ LCP_CI_DEPLOY_TARGET  [dev] // keep as default
 LCP_CI_SCM_REPOSITORY_NAME  [github's repo name]
 LCP_CI_SCM_REPOSITORY_OWNER [github's user name]
 LCP_CI_SCM_PROVIDER [github]
-LCP_CI_SCM_TOKEN  [access_token]  // Get it from github.
+LCP_CI_SCM_TOKEN  [access_token]  // Get it from github. https://github.com/settings/tokens
 ```
 
 4. Change the project's webhook on github site to trigger the CI build.
+* github side URL:
+https://github.com/`[Github_USERNAME]`/`[Github_Project_Name]`/settings/hooks
+
 
 5. Change the ci/LCP.json   Link to github
 
