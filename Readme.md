@@ -73,9 +73,6 @@ LCP_CI_SCM_TOKEN  [access_token]  // Get it from github. https://github.com/sett
 ```
 
 4. Change the project's webhook on github site to trigger the CI build.
-* github side URL:
-https://github.com/`[Github_USERNAME]`/`[Github_Project_Name]`/settings/hooks
-
 
 5. Change the ci/LCP.json   Link to github
 
