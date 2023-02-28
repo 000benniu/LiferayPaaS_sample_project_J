@@ -15,6 +15,7 @@
 
 * Version:            liferay/gradle.properties
    * Find the latest version from :https://hub.docker.com/r/liferay/portal/tags
+   * https://releases-cdn.liferay.com/tools/workspace/.product_info.json
 * properties files:   liferay/configs/XXX/portal-ext.properties
 
 ## Config with longer session:
