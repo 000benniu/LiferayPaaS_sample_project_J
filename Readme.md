@@ -62,7 +62,10 @@ xxx/webserver/configs/dev/public > cat .htpasswd
 * You are invited to become an Admin member on project lctjpsteam1101
 2. [Optional] Clone the project ot local, diff and check if there are any changes.
 * Service change log :https://help.liferay.com/hc/en-us/sections/360006251311-Services-Changelog
-3. Config CI from https://console.liferay.cloud/, connect with personal git project. (Also can use project provided by dxp cloud team as default. eg. https://github.com/dxpcloud/[projectID]).
+
+* Current: 05/23/2023
+
+1. Config CI from https://console.liferay.cloud/, connect with personal git project. (Also can use project provided by dxp cloud team as default. eg. https://github.com/dxpcloud/[projectID]).
 ```
 JENKINS_ADMIN_USER_NAME [ProjectID] // keep as default
 JENKINS_URL [CI's URL] // keep as default
@@ -73,9 +76,9 @@ LCP_CI_SCM_PROVIDER [github]
 LCP_CI_SCM_TOKEN  [access_token]  // Get it from github. https://github.com/settings/tokens
 ```
 
-4. Change the project's webhook on github site to trigger the CI build.
+1. Change the project's webhook on github site to trigger the CI build.
 
-5. Change the ci/LCP.json   Link to github
+2. Change the ci/LCP.json   Link to github
 
 ```
 "env": {
