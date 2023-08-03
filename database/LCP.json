@@ -2,7 +2,7 @@
   "kind": "Deployment",
   "id": "database",
   "image": "liferaycloud/database:5.1.3",
-  "memory": 1024,
+  "memory": 888,
   "cpu": 2,
   "scale": 1,
   "ports": [

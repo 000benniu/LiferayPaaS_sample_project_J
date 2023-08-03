@@ -17,6 +17,8 @@
    * Find the latest version from :https://hub.docker.com/r/liferay/portal/tags
    * https://releases-cdn.liferay.com/tools/workspace/.product_info.json
 * properties files:   liferay/configs/XXX/portal-ext.properties
+* Enable the upgrade report `upgrade.report.enabled=true`
+* 7.4uXX->7.4uXX manual: https://help.liferay.com/hc/en-us/articles/4415761553677-Installing-a-Bundled-Service-Pack-or-Update
 
 ## Config with longer session:
 * https://help.liferay.com/hc/ja/articles/5394973917581--Unable-to-extend-the-HTTP-session-WARN-logs
@@ -86,4 +88,10 @@ LCP_CI_SCM_TOKEN  [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]  // Get it from git
     "LCP_CI_SCM_REPOSITORY_NAME": "lctjpteamdxp74",
     "LCP_CI_SCM_REPOSITORY_OWNER": "000benniu"
 },
+```
+6. Allow virtual host domain.
+```
+1. Open DXPC console. https://console.liferay.cloud/
+2.  Go to liferay Service -> environment-variables
+3. Add Regular variables LIFERAY_VIRTUAL_PERIOD_HOSTS_PERIOD_VALID_PERIOD_HOSTS as *
 ```
