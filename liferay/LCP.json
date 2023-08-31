@@ -18,7 +18,7 @@
   ],
   "readinessProbe": {
     "httpGet": {
-      "path": "/c/portal/layout",
+      "path": "/c/portal/robots",
       "port": 8080
     },
     "initialDelaySeconds": 120,
@@ -29,7 +29,7 @@
   },
   "livenessProbe": {
     "httpGet": {
-      "path": "/c/portal/layout",
+      "path": "/c/portal/robots",
       "port": 8080
     },
     "initialDelaySeconds": 480,
