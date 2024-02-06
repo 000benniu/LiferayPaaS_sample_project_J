@@ -64,7 +64,7 @@ xxx/webserver/configs/dev/public > cat .htpasswd
 * You are invited to become an Admin member on project lctjpsteam1101
 2. [Optional] Clone the project ot local, diff and check if there are any changes.
 * Service change log :https://help.liferay.com/hc/en-us/sections/360006251311-Services-Changelog
-* Current: 08/24/2023
+* Current: 01/26/2024
 
 3. Config CI from https://console.liferay.cloud/, connect with personal git project. (Also can use project provided by dxp cloud team as default. eg. https://github.com/dxpcloud/[projectID]).
 ```
