@@ -23,3 +23,8 @@
 /plugins-sdk/dist
 /plugins-sdk/lib
 test-results
+.yarnrc
+client-extensions/react-loan-calculator/dist/
+node_modules_cache/
+package.json
+yarn.lock
