@@ -1,0 +1,15 @@
+assemble:
+  - from: build
+    into: static
+react-loan-calculator:
+  cssURLs:
+    - static/css/main.css
+  friendlyURLMapping: react-loan-calculator
+  htmlElementName: react-loan-calculator
+  instanceable: false
+  name: React Loan Calculator
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - static/js/main.js
+  useESM: true
