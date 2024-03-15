@@ -1,3 +1,7 @@
+# About LXC-SM React
+
+- Please check [here](./liferay/client-extensions/react-loan-calculator/README.md)
+
 # Backup service
 * backup/LCP.json
 
