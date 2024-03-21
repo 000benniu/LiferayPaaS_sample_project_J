@@ -3,9 +3,8 @@ buildscript {
 		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.workspace", version: "9.0.12"
 	}
 
+
 	repositories {
-		mavenLocal()
-		
 		maven {
 			url "https://repository-cdn.liferay.com/nexus/content/groups/public"
 		}
