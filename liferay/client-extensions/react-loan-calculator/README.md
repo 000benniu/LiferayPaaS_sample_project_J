@@ -85,8 +85,19 @@ build/static/css/main.dc4d6ff2.css
 ```
 
 ## Deploy and use
-* [Option 1] Hoste this Javascript Resources on Remote Server or LXC Client Extension Service
-* [Option 2] Add Javascript Resources to Document Library
+
+### [Option 1] Hoste this Javascript Resources on Remote Server or LXC Client Extension Service
+
+1. Use `lcp deploy` to build.
+2. After the `/dist/react-loan-calculator.zip` is created, use `lcp deploy` to deploy to the LXC-Client Extension slot.
+
+e.g.
+```
+lcp deploy --project extxxxxxxx-extuat --ext ./dist/yyyyy.zip
+```
+
+### [Option 2] Add Javascript Resources to Document Library
+
 
 ## Setup Instruction
 
