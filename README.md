@@ -1,6 +1,6 @@
-# About LXC-SM React
+# Client Extension for LXC-SM/LXC's sample: A React sample
 
-- Please check [here](./liferay/client-extensions/react-loan-calculator/README.md)
+- Please check [English here](./liferay/client-extensions/react-loan-calculator/README.md) [日本語はこちらへ](./liferay/client-extensions/react-loan-calculator/README_jp.md)
 
 # Backup service
 * backup/LCP.json
