@@ -16,6 +16,7 @@
 * Version:            liferay/gradle.properties
    * Find the latest version from :https://hub.docker.com/r/liferay/portal/tags
    * https://releases-cdn.liferay.com/tools/workspace/.product_info.json
+   * https://github.com/liferay/liferay-dxp
 * properties files:   liferay/configs/XXX/portal-ext.properties
 * Enable the upgrade report `upgrade.report.enabled=true`
 * 7.4uXX->7.4uXX manual: https://help.liferay.com/hc/en-us/articles/4415761553677-Installing-a-Bundled-Service-Pack-or-Update
