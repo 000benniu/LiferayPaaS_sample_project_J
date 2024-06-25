@@ -13,10 +13,9 @@
 
 # DXP related
 
-* Version:            liferay/gradle.properties
-   * Find the latest version from :https://hub.docker.com/r/liferay/portal/tags
-   * https://releases-cdn.liferay.com/tools/workspace/.product_info.json
-   * https://github.com/liferay/liferay-dxp
+* Change DXP Version: liferay/gradle.properties
+   * Use the latest liferay-gradle-workspace https://repository.liferay.com/nexus/index.html#nexus-search;quick~com.liferay.gradle.plugins.workspace
+   * Find the latest version from :https://releases-cdn.liferay.com/releases.json or https://releases.liferay.com/releases.json
 * properties files:   liferay/configs/XXX/portal-ext.properties
 * Enable the upgrade report `upgrade.report.enabled=true`
 * 7.4uXX->7.4uXX manual: https://help.liferay.com/hc/en-us/articles/4415761553677-Installing-a-Bundled-Service-Pack-or-Update
