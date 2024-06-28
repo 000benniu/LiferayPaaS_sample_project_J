@@ -1,7 +1,7 @@
 {
   "kind": "Deployment",
   "id": "liferay",
-  "image": "liferaycloud/liferay-dxp:7.4-5.5.0",
+  "image": "liferaycloud/liferay-dxp:7.4-5.8.1",
   "memory": 8192,
   "cpu": 8,
   "scale": 1,
