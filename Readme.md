@@ -16,6 +16,7 @@
 * Change DXP Version: liferay/gradle.properties
    * Use the latest liferay-gradle-workspace https://repository.liferay.com/nexus/index.html#nexus-search;quick~com.liferay.gradle.plugins.workspace
    * Find the latest version from :https://releases-cdn.liferay.com/releases.json or https://releases.liferay.com/releases.json
+   * Github repository tags:https://github.com/liferay/liferay-dxp
 * properties files:   liferay/configs/XXX/portal-ext.properties
 * Enable the upgrade report `upgrade.report.enabled=true`
 * 7.4uXX->7.4uXX manual: https://help.liferay.com/hc/en-us/articles/4415761553677-Installing-a-Bundled-Service-Pack-or-Update
@@ -36,10 +37,11 @@
 ## Authentication Token Expiration Time
 1. System Settings -> Users -> On-Demand Admin
 
-## Hide node infomation
+## Hide node infomation & allow virtual host domain.
 1. Open DXPC console. https://console.liferay.cloud/
 1. Go to liferay Service -> environment-variables
 1. Add Regular variables `LIFERAY_WEB_PERIOD_SERVER_PERIOD_DISPLAY_PERIOD_NODE` as `false`
+1. Add Regular variables `LIFERAY_VIRTUAL_PERIOD_HOSTS_PERIOD_VALID_PERIOD_HOSTS` as `*`
 
 ## release feature flags
 * System Settings > Release Feature Flags
@@ -79,19 +81,3 @@ LCP_CI_SCM_TOKEN  [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]  // Get it from git
 
 4. Change the project's webhook on github site to trigger the CI build.
 
-5. Change the ci/LCP.json   Link to github
-
-```
-"env": {
-    "JENKINS_ADMIN_USER_NAME": "lctjpteamdxp74",
-    "JENKINS_URL": "https://ci-lctjpteamdxp74-infra.lfr.cloud",
-    "LCP_CI_SCM_REPOSITORY_NAME": "lctjpteamdxp74",
-    "LCP_CI_SCM_REPOSITORY_OWNER": "000benniu"
-},
-```
-6. Allow virtual host domain.
-```
-1. Open DXPC console. https://console.liferay.cloud/
-2.  Go to liferay Service -> environment-variables
-3. Add Regular variables LIFERAY_VIRTUAL_PERIOD_HOSTS_PERIOD_VALID_PERIOD_HOSTS as *
-```
