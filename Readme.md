@@ -42,6 +42,7 @@
 1. Go to liferay Service -> environment-variables
 1. Add Regular variables `LIFERAY_WEB_PERIOD_SERVER_PERIOD_DISPLAY_PERIOD_NODE` as `false`
 1. Add Regular variables `LIFERAY_VIRTUAL_PERIOD_HOSTS_PERIOD_VALID_PERIOD_HOSTS` as `*`
+1. Add Regular variables `LIFERAY_CAPTCHA_PERIOD_ENFORCE_PERIOD_DISABLED` as `true`
 
 ## release feature flags
 * System Settings > Release Feature Flags
