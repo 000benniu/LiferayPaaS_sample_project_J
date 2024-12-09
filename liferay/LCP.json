@@ -1,7 +1,11 @@
 {
   "kind": "Deployment",
   "id": "liferay",
+<<<<<<< HEAD
   "image": "liferaycloud/liferay-dxp:7.4-5.8.1",
+=======
+  "image": "liferaycloud/liferay-dxp:7.4-5.8.3",
+>>>>>>> lctjpteamdxp74/master_ulogin
   "memory": 8192,
   "cpu": 8,
   "scale": 1,
