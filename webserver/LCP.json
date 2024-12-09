@@ -1,7 +1,11 @@
 {
   "kind": "Deployment",
   "id": "webserver",
+<<<<<<< HEAD
   "image": "liferaycloud/nginx:1.24.0-6.1.0",
+=======
+  "image": "liferaycloud/nginx:1.24.0-6.1.4",
+>>>>>>> lctjpteamdxp74/master_ulogin
   "memory": 512,
   "cpu": 2,
   "scale": 1,

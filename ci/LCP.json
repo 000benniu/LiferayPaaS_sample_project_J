@@ -1,7 +1,11 @@
 {
   "kind": "StatefulSet",
   "id": "ci",
+<<<<<<< HEAD
   "image": "liferaycloud/jenkins:2.356-jdk8-5.2.6",
+=======
+  "image": "liferaycloud/jenkins:2.356-jdk8-5.3.0",
+>>>>>>> lctjpteamdxp74/master_ulogin
   "deploy": false,
   "memory": 8192,
   "cpu": 4,

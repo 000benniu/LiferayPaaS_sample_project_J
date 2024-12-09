@@ -1,9 +1,23 @@
 # React Loan Calculator and Form Submission
+<<<<<<< HEAD
 Example of a multi-step react component that leverages getting and posting Liferay Object data. This component also contains translated content for French, Portuguese, Spanish, and English based on the user's Liferay language settings.
 
 ![Component Outcomes 1](./screenshots/img-1.png)
 ![Component Outcomes 2](./screenshots/img-2.png)
 ![Component Outcomes 3](./screenshots/img-3.png)
+=======
+
+[![Deploy to
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/weskempa-liferay/react-loan-calculator)
+
+Example of a multi-step react component that leverages getting and posting Liferay Object data. This component also contains translated content for French, Portuguese, Spanish, and English based on the user's Liferay language settings.
+
+![Component Outcomes 1](./screenshots/img-1.png)
+
+*Language file corrections, suggestions, or additional locales are welcome!*
+
+![Component Outcomes 2](./screenshots/img-2.png)
+>>>>>>> lctjpteamdxp74/master_ulogin
 
 ### Expected Use
 This resource can be used as a 7.4 Remote App (Custom Element) or a Client Extension service for LXC.
@@ -59,6 +73,7 @@ This resource can be used as a 7.4 Remote App (Custom Element) or a Client Exten
 8. Publish the new Loan Request Object
 
 
+<<<<<<< HEAD
 ## Build / Deploy on LXC-SM use Jenkins
 1. Upload LXC-SM project (Keep the foloder stucture) and jenkins will automaticly build.
 1. After the project is buit, deploy it to UAT/DEV/PRD slot.
@@ -98,6 +113,22 @@ lcp deploy --project extxxxxxxx-extuat --ext ./dist/yyyyy.zip
 
 ### [Option 2] Add Javascript Resources to Document Library
 
+=======
+## Clone Repo and Install Packages
+Clone repo and once ready run the following:
+
+yarn install
+
+# Display Method Options
+
+So many ways to use Remote Apps!! *Yey!*
+
+  * Delivery Method A - Remote App's Custom Element
+  
+     * [Option 1] Javascript Resources Hosted on Remote Server or LXC Client Extension Service
+     * [Option 2] Javascript Resources Hosted on Liferay Server in webapps
+     * [Option 3] Javascript Resources Added to Document Library
+>>>>>>> lctjpteamdxp74/master_ulogin
 
 ## Setup Instruction
 
@@ -110,7 +141,14 @@ Include these in your Remote App or LXC Client Extension Service definition.
 | cssURLs             | path to main.css |
      
      
+<<<<<<< HEAD
 * Delivery Method A - Use as separate React App (Make sure to set the CORs Policy to support this approach if on a separate domain) 
 * Delivery Method B - Remote App's iFrame (Make sure to set the CORs Policy to support this approach if on a separate domain)
 
 
+=======
+  * Delivery Method B - Use as separate React App (Make sure to set the CORs Policy to support this approach if on a separate domain) 
+  * Delivery Method C - Remote App's iFrame (Make sure to set the CORs Policy to support this approach if on a separate domain)
+
+![Component Outcomes 3](./screenshots/img-3.png)
+>>>>>>> lctjpteamdxp74/master_ulogin

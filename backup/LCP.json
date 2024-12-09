@@ -1,7 +1,11 @@
 {
   "kind": "Deployment",
   "id": "backup",
+<<<<<<< HEAD
   "image": "liferaycloud/backup:5.18.0",
+=======
+  "image": "liferaycloud/backup:5.22.0",
+>>>>>>> lctjpteamdxp74/master_ulogin
   "memory": 1024,
   "cpu": 2,
   "scale": 1,
