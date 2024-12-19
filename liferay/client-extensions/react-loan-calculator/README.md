@@ -1,9 +1,11 @@
 # React Loan Calculator and Form Submission
+
 Example of a multi-step react component that leverages getting and posting Liferay Object data. This component also contains translated content for French, Portuguese, Spanish, and English based on the user's Liferay language settings.
 
 ![Component Outcomes 1](./screenshots/img-1.png)
 ![Component Outcomes 2](./screenshots/img-2.png)
 ![Component Outcomes 3](./screenshots/img-3.png)
+
 
 ### Expected Use
 This resource can be used as a 7.4 Remote App (Custom Element) or a Client Extension service for LXC.
@@ -58,7 +60,6 @@ This resource can be used as a 7.4 Remote App (Custom Element) or a Client Exten
 
 8. Publish the new Loan Request Object
 
-
 ## Build / Deploy on LXC-SM use Jenkins
 1. Upload LXC-SM project (Keep the foloder stucture) and jenkins will automaticly build.
 1. After the project is buit, deploy it to UAT/DEV/PRD slot.
@@ -99,6 +100,7 @@ lcp deploy --project extxxxxxxx-extuat --ext ./dist/yyyyy.zip
 ### [Option 2] Add Javascript Resources to Document Library
 
 
+
 ## Setup Instruction
 
 Include these in your Remote App or LXC Client Extension Service definition. 
@@ -109,8 +111,5 @@ Include these in your Remote App or LXC Client Extension Service definition.
 | urls                | path to main.js  |
 | cssURLs             | path to main.css |
      
-     
 * Delivery Method A - Use as separate React App (Make sure to set the CORs Policy to support this approach if on a separate domain) 
 * Delivery Method B - Remote App's iFrame (Make sure to set the CORs Policy to support this approach if on a separate domain)
-
-
