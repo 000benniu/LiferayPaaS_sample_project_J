@@ -1,11 +1,7 @@
 {
   "kind": "StatefulSet",
   "id": "search",
-<<<<<<< HEAD
-  "image": "liferaycloud/elasticsearch:7.17.18-5.3.0",
-=======
   "image": "liferaycloud/elasticsearch:7.17.23-5.3.2",
->>>>>>> lctjpteamdxp74/master_ulogin
   "cpu": 8,
   "memory": 8192,
   "scale": 1,

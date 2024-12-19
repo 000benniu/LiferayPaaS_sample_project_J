@@ -60,8 +60,6 @@ This resource can be used as a 7.4 Remote App (Custom Element) or a Client Exten
 
 8. Publish the new Loan Request Object
 
-
-<<<<<<< HEAD
 ## Build / Deploy on LXC-SM use Jenkins
 1. Upload LXC-SM project (Keep the foloder stucture) and jenkins will automaticly build.
 1. After the project is buit, deploy it to UAT/DEV/PRD slot.
@@ -101,22 +99,7 @@ lcp deploy --project extxxxxxxx-extuat --ext ./dist/yyyyy.zip
 
 ### [Option 2] Add Javascript Resources to Document Library
 
-=======
-## Clone Repo and Install Packages
-Clone repo and once ready run the following:
 
-yarn install
-
-# Display Method Options
-
-So many ways to use Remote Apps!! *Yey!*
-
-  * Delivery Method A - Remote App's Custom Element
-  
-     * [Option 1] Javascript Resources Hosted on Remote Server or LXC Client Extension Service
-     * [Option 2] Javascript Resources Hosted on Liferay Server in webapps
-     * [Option 3] Javascript Resources Added to Document Library
->>>>>>> lctjpteamdxp74/master_ulogin
 
 ## Setup Instruction
 
@@ -128,15 +111,5 @@ Include these in your Remote App or LXC Client Extension Service definition.
 | urls                | path to main.js  |
 | cssURLs             | path to main.css |
      
-     
-<<<<<<< HEAD
 * Delivery Method A - Use as separate React App (Make sure to set the CORs Policy to support this approach if on a separate domain) 
 * Delivery Method B - Remote App's iFrame (Make sure to set the CORs Policy to support this approach if on a separate domain)
-
-
-=======
-  * Delivery Method B - Use as separate React App (Make sure to set the CORs Policy to support this approach if on a separate domain) 
-  * Delivery Method C - Remote App's iFrame (Make sure to set the CORs Policy to support this approach if on a separate domain)
-
-![Component Outcomes 3](./screenshots/img-3.png)
->>>>>>> lctjpteamdxp74/master_ulogin
